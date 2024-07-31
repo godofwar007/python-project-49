@@ -41,5 +41,5 @@ def brain_even():
             print(f'"{user_answer}" is wrong answer ;(. Correct answer '
                   f'was "{correct_answer}".')
             print(f"Let's try again, {name}!")
-        if correct_answers == 3:
-            print(f'Congratulations, {name}!')
+            return
+    print(f'Congratulations, {name}!')
