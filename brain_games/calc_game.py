@@ -2,6 +2,8 @@
 
 import prompt
 from random import randint, choice
+from colorama import Fore, init
+init(autoreset=True)
 
 
 def welcome_user_calc_game():
@@ -9,6 +11,8 @@ def welcome_user_calc_game():
     name = prompt.string('May I have your name? ')
     print(f'Hello, {name}')
     print('What is the result of the expression?')
+    print(f'{Fore.GREEN}*if the result is negative, '
+          f'enter ure answer without "-".')
     return name
 
 
