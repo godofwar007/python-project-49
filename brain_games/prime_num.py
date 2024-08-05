@@ -31,7 +31,7 @@ def game_prime_n():
     correct_answers = 0
     while correct_answers < 3:
         number = randint(1, 1000)
-        print(f'Questions: {number}')
+        print(f'Question: {number}')
         user_answer = prompt.string('Your answer: ')
         if prime_number(number):
             correct_answer = 'yes'
