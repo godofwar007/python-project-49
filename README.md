@@ -21,4 +21,4 @@ Is it a Prime Number? (brain-prime): A number is shown to the user, who needs to
 
 
 
-[![asciicast](https://asciinema.org/a/7IbjslwESDUUrlVWxGLT8kteX.svg)](https://asciinema.org/a/7IbjslwESDUUrlVWxGLT8kteX)
+[![asciicast](https://asciinema.org/a/3u2vWYCad0zwtHlQH1OTVRmcw.svg)](https://asciinema.org/a/3u2vWYCad0zwtHlQH1OTVRmcw)
