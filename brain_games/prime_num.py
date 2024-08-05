@@ -12,7 +12,7 @@ def welcome_user_prime_game():
     print(f'Hello, {name}')
     print(f'Answer {Fore.GREEN}"yes"'
           f'{Fore.RESET} if given number is prime.'
-          f' otherwise answer'
+          f' Otherwise answer'
           f'{Fore.RED} "no".')
     return name
 
