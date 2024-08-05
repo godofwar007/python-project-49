@@ -27,7 +27,7 @@ def brain_even():
 
     while correct_answers < 3:
         random_number = randint(1, 50)
-        print(f'Questions: {random_number}')
+        print(f'Question: {random_number}')
         user_answer = prompt.string('Your answer: ')
         if even_number(random_number):
             correct_answer = 'yes'
