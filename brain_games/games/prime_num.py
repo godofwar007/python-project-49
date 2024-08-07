@@ -4,17 +4,16 @@ import prompt
 from random import randint
 from colorama import Fore, init
 init(autoreset=True)
+from brain_games.cli import name
 
 
 def welcome_user_prime_game():
-    print('Welcome to the Brain Games!')
-    name = prompt.string('May I have your name? ')
     print(f'Hello, {name}')
     print(f'Answer {Fore.GREEN}"yes"'
           f'{Fore.RESET} if given number is prime.'
           f' Otherwise answer'
           f'{Fore.RED} "no".')
-    return name
+    return 
 
 
 def prime_number(num):

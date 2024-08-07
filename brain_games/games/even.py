@@ -4,17 +4,16 @@ import prompt
 from random import randint
 from colorama import Fore, init
 init(autoreset=True)
+from brain_games.cli import name
 
 
 def welcome_user_brain_even():
-    print('Welcome to the Brain Games!')
-    name = prompt.string('May I have your name? ')
     print(f'Hello, {name}')
     print(f'Answer {Fore.GREEN}"yes"'
           f'{Fore.RESET} if the number is even,'
           f' otherwise answer'
           f'{Fore.RED} "no".')
-    return name
+    return 
 
 
 def even_number(number):  # if even == True, if not == False.
