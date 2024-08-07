@@ -20,7 +20,7 @@ def games():
     print('3. Answer "yes" if the number is even, otherwise answer "no".')
     print('4. Answer "yes" if given number is prime, otherwise answer "no".')
     print('5. You need to find missing number in the progression')
-    game = prompt.integer('May I have your name? ')
+    game = prompt.integer('Choose the game by number: ')
     if game == 1:
         calc()
     elif game == 2:
