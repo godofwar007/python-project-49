@@ -1,10 +1,12 @@
 #!/usr/bin/env python3
 
-from brain_games.games.calc_game import correct_expression
+
+from brain_games.main_def import beggining
+from brain_games.games import calc
 
 
 def main():
-    correct_expression()
+    beggining(calc)
 
 
 if __name__ == '__main__':
