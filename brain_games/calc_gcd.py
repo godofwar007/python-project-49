@@ -3,13 +3,14 @@
 import prompt
 from random import randint
 from math import gcd
-from brain_games.cli import name
 
 
 def welcome_user_calc_gcd():
+    print('Welcome to the Brain Games!')
+    name = prompt.string('May I have your name? ')
     print(f'Hello, {name}')
     print('Find the greatest common divisor of given numbers.')
-    return 
+    return name
 
 
 def solution_gcd():

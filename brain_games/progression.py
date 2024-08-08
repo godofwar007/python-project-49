@@ -2,13 +2,14 @@
 
 import prompt
 from random import randint
-from brain_games.cli import name
 
 
 def welcome_user_progression():
+    print('Welcome to the Brain Games!')
+    name = prompt.string('May I have your name? ')
     print(f'Hello, {name}')
     print('What number is missing in the progression?')
-    return 
+    return name
 
 
 def my_progression():
