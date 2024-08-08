@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-from brain_games.games.prime_num import game_prime_n
+from brain_games.prime_num import game_prime_n
 
 
 def main():
