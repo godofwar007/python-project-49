@@ -3,7 +3,6 @@ __pycache__/
 *.py[cod]
 *$py.class
 .venv/
-dist/
 demo.cast
 # C extensions
 *.so
