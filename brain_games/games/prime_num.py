@@ -24,10 +24,10 @@ def prime_number(num):
 
 def correct_answer_question():
     number = randint(1, 1000)
-    question = f'Question: {number}'
+    question = (f'Question: {number}')
     if prime_number(number):
         correct_answer = 'yes'
     else:
         correct_answer = 'no'
-    return correct_answer, question
+    return question, correct_answer
             
