@@ -7,7 +7,7 @@ init(autoreset=True)
 
 rules = (f'Answer {Fore.GREEN}"yes"'
          f'{Fore.RESET} if the number is even,'
-         f' otherwise answer'
+         f' Otherwise answer'
          f'{Fore.RED} "no".')
 
 
