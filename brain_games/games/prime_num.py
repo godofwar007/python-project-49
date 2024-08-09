@@ -6,7 +6,7 @@ init(autoreset=True)
 
 
 rules = (f'Answer {Fore.GREEN}"yes"'
-         f'{Fore.RESET} if the number is even,'
+         f'{Fore.RESET} if the number is prime,'
          f' Otherwise answer'
          f'{Fore.RED} "no".')
 
