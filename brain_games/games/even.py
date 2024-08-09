@@ -1,6 +1,5 @@
 #!/usr/bin/env python3
 
-import prompt
 from random import randint
 from colorama import Fore, init
 init(autoreset=True)
@@ -17,9 +16,9 @@ def is_even(number):
 
 def correct_answer_question():
     number = randint(1, 100)
-    question = f'Question: {number}'
+    question = (f'Question: {number}')
     if is_even(number):
         correct_answer = 'yes' 
     else: 
         correct_answer = 'no'
-    return correct_answer, question
+    return question, correct_answer

@@ -1,6 +1,5 @@
 #!/usr/bin/env python3
 
-import prompt
 from random import randint
 
 
@@ -14,16 +13,12 @@ def my_progression():
     return progression
 
 
-def replace_el():
+def correct_answer_question():
     progression = my_progression()
     element = randint(0, len(progression) - 1)
     old_el = progression[element]
     progression[element] = '..'
-    return progression, old_el
-
-
-def correct_answer_question():
-    progression, old_el = replace_el()
+    hidden_el = ' '.join(map(str, progression))
     correct_answer = old_el
-    question = ('Question:', ' '.join(map(str, progression)))
-    return correct_answer, question
+    question = (f'Question: {hidden_el}')
+    return question, correct_answer

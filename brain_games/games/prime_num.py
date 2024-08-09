@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
 
-import prompt
 from random import randint
 from colorama import Fore, init
 init(autoreset=True)
 
 
+rules = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
 def prime_number(num):
     if num <= 1:
@@ -23,8 +23,8 @@ def prime_number(num):
 
 
 def correct_answer_question():
-    question = f'Question: {number}'
     number = randint(1, 1000)
+    question = f'Question: {number}'
     if prime_number(number):
         correct_answer = 'yes'
     else:
