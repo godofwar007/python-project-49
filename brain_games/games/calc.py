@@ -4,6 +4,7 @@ from random import randint, choice
 
 rules = 'What is the result of the expression?'
 
+
 def correct_answer_question():
     first_num = randint(1, 100)
     second_num = randint(1, 100)
@@ -18,4 +19,3 @@ def correct_answer_question():
     elif expression == '*':
         correct_answer = first_num * second_num
     return question, correct_answer
-

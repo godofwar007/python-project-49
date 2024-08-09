@@ -6,6 +6,7 @@ from math import gcd
 
 rules = 'Find the greatest common divisor of given numbers.'
 
+
 def correct_answer_question():
     first_num = randint(1, 100)
     second_num = randint(1, 100)

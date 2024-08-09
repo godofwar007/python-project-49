@@ -5,6 +5,7 @@ from random import randint
 
 rules = 'What number is missing in the progression?'
 
+
 def my_progression():
     start = randint(1, 50)
     step = randint(2, 10)

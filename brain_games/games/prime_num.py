@@ -5,7 +5,11 @@ from colorama import Fore, init
 init(autoreset=True)
 
 
-rules = 'Answer "yes" if given number is prime. Otherwise answer "no".'
+rules = (f'Answer {Fore.GREEN}"yes"'
+         f'{Fore.RESET} if the number is even,'
+         f' otherwise answer'
+         f'{Fore.RED} "no".')
+
 
 def prime_number(num):
     if num <= 1:
@@ -30,4 +34,3 @@ def correct_answer_question():
     else:
         correct_answer = 'no'
     return question, correct_answer
-            
