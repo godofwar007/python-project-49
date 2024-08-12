@@ -1,9 +1,7 @@
-#!/usr/bin/env python3
-
 from random import randint
 
 
-rules = 'What number is missing in the progression?'
+RULES = 'What number is missing in the progression?'
 
 
 def my_progression():
@@ -14,7 +12,7 @@ def my_progression():
     return progression
 
 
-def correct_answer_question():
+def get_correct_answer_question():
     progression = my_progression()
     element = randint(0, len(progression) - 1)
     old_el = progression[element]

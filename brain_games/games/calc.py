@@ -1,11 +1,9 @@
-#!/usr/bin/env python3
-
 from random import randint, choice
 
-rules = 'What is the result of the expression?'
+RULES = 'What is the result of the expression?'
 
 
-def correct_answer_question():
+def get_correct_answer_question():
     first_num = randint(1, 100)
     second_num = randint(1, 100)
     expressions = ['+', '-', '*']
